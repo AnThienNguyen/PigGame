@@ -1,5 +1,4 @@
 # Pig Game
-## An Nguyen
 A two player dice game programmed in JavaScript. Each player alternated turns rolling the die. The player who rolls the die will accumulate points based on the numbers they have rolled. Each time a player rolls their die, they have the option to either hold their current value or pass their turn to the next player. The players get to roll as many times as they want as long as they do not roll a 1. If a 1 is rolled, their round score is lost and the turn will be passed to the next player. First person to reach 100 wins the game. 
 This project was created to learn JavaScript DOM manipulation. With the HTML DOM, JavaScript can create dynamic HTML by changing, removing, and adding elements and attibutes.
 
