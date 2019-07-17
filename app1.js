@@ -26,8 +26,8 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 		// 2. Display result
 		document.getElementById('dice-1').style.display = 'block';
 		document.getElementById('dice-2').style.display = 'block';
-		document.getElementById('dice-1').src = 'dice-' + dice1 + '.png';
-		document.getElementById('dice-2').src = 'dice-' + dice2 + '.png';
+		document.getElementById('dice-1').src = 'images/dice-' + dice1 + '.png';
+		document.getElementById('dice-2').src = 'images/dice-' + dice2 + '.png';
 
 		// 3. Update round score if NOT 1
 		if (dice1 === 6 && dice2 === 6) {
